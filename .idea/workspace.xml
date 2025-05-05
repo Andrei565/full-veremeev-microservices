@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="074f3b7c-ca1a-4197-bb56-052cd2c299ab" name="Changes" comment="Добавил модуль order-service">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="074f3b7c-ca1a-4197-bb56-052cd2c299ab" name="Changes" comment="Добавил модуль product-service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/techie/microservices/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/techie/microservices/order/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,42 +45,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.OrderServiceApplication.executor": "Run",
-    "Docker.docker.mongodb: Compose Deployment.executor": "Run",
-    "JUnit.OrderServiceApplicationTests.executor": "Run",
-    "JUnit.OrderServiceApplicationTests.shouldSubmitOrder.executor": "Run",
-    "Maven.full-veremeev-microservices [clean].executor": "Run",
-    "Maven.full-veremeev-microservices [install].executor": "Run",
-    "Maven.order-service [clean].executor": "Run",
-    "Maven.order-service [package].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.ApiGatewayApplication.executor": "Run",
-    "Spring Boot.InventoryServiceApplication.executor": "Run",
-    "Spring Boot.NotificationServiceApplication (1).executor": "Run",
-    "Spring Boot.NotificationServiceApplication.executor": "Run",
-    "Spring Boot.OrderServiceApplication.executor": "Run",
-    "Spring Boot.ProductServiceApplication.executor": "Run",
-    "git-widget-placeholder": "feature-module-project",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.OrderServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker.mongodb: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceApplicationTests.shouldSubmitOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.full-veremeev-microservices [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.full-veremeev-microservices [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.inventory-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.inventory-service [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.order-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.order-service [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.InventoryServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.NotificationServiceApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.NotificationServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OrderServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ProductServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#1 on feature-module-project&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -93,36 +93,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OrderServiceApplicationTests.shouldSubmitOrder">
-    <configuration name="OrderServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techie.microservices.order.OrderServiceApplication" />
-      <module name="full-veremeev-microservices" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techie.microservices.order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="order-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techie.microservices.order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techie.microservices.order" />
-      <option name="MAIN_CLASS_NAME" value="com.techie.microservices.order.OrderServiceApplicationTests" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Docker.docker: Compose Deployment (3)">
     <configuration name="OrderServiceApplicationTests.shouldSubmitOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="order-service" />
       <extension name="coverage">
@@ -175,26 +146,48 @@
       </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker.mongodb: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+    <configuration name="docker: Compose Deployment (1)" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
-          <option name="services">
-            <list>
-              <option value="mongodb" />
-            </list>
-          </option>
+          <option name="sourceFilePath" value="inventory-service/docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker: Compose Deployment (2)" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="order-service/docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker: Compose Deployment (3)" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
           <option name="sourceFilePath" value="product-service/docker/docker-compose.yml" />
         </settings>
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="api-gateway/docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.OrderServiceApplication" />
-      <item itemvalue="Docker.docker.mongodb: Compose Deployment" />
-      <item itemvalue="JUnit.OrderServiceApplicationTests" />
+      <item itemvalue="Docker.docker: Compose Deployment" />
+      <item itemvalue="Docker.docker: Compose Deployment (1)" />
+      <item itemvalue="Docker.docker: Compose Deployment (2)" />
+      <item itemvalue="Docker.docker: Compose Deployment (3)" />
       <item itemvalue="JUnit.OrderServiceApplicationTests.shouldSubmitOrder" />
       <item itemvalue="Spring Boot.OrderServiceApplication" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
@@ -204,10 +197,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker: Compose Deployment (3)" />
+        <item itemvalue="Docker.docker: Compose Deployment (2)" />
+        <item itemvalue="Docker.docker: Compose Deployment (1)" />
+        <item itemvalue="Docker.docker: Compose Deployment" />
         <item itemvalue="JUnit.OrderServiceApplicationTests.shouldSubmitOrder" />
-        <item itemvalue="JUnit.OrderServiceApplicationTests" />
-        <item itemvalue="Docker.docker.mongodb: Compose Deployment" />
-        <item itemvalue="Application.OrderServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +223,8 @@
       <updated>1746447092778</updated>
       <workItem from="1746447093961" duration="213000" />
       <workItem from="1746447333518" duration="156000" />
-      <workItem from="1746447513151" duration="613000" />
+      <workItem from="1746447513151" duration="744000" />
+      <workItem from="1746448528620" duration="491000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил модуль notification sender">
       <option name="closed" value="true" />
@@ -247,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746447482825</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавил модуль product-service">
+      <option name="closed" value="true" />
+      <created>1746448165911</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746448165911</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +282,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавил модуль notification sender" />
     <MESSAGE value="Добавил модуль order-service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил модуль order-service" />
+    <MESSAGE value="Добавил модуль product-service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил модуль product-service" />
   </component>
 </project>
