@@ -1,0 +1,12 @@
+version: '4'
+services:
+  mysql:
+    image: mysql:8.3.0
+    container_name: mysql-inventory-service
+    environment:
+      MYSQL_ROOT_PASSWORD: mysql # Пароль для root
+    ports:
+      - "3307:3306" # Проксируем порт 3306
+    volumes:
+      - ./mysql/inventory:/var/lib/mysql
+      - ./initdb/init.sql:/docker-entrypoint-initdb.d/init.sql
