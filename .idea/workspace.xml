@@ -1,7 +1,324 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{}</component>
-  <component name="RunManager" selected="Spring Boot.NotificationServiceApplication (1)">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="074f3b7c-ca1a-4197-bb56-052cd2c299ab" name="Changes" comment="Рефактор">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/grafana/dashboard.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/grafana/datasource.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/prometheus/prometheus.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/tempo/tempo-data/blocks/single-tenant/590a9bd8-6281-41e9-a08c-ae06299accad/bloom-0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/tempo/tempo-data/blocks/single-tenant/590a9bd8-6281-41e9-a08c-ae06299accad/data.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/tempo/tempo-data/blocks/single-tenant/590a9bd8-6281-41e9-a08c-ae06299accad/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/tempo/tempo-data/blocks/single-tenant/6ecd6cd1-f3b9-4f9b-8b4c-8a5c5289ef86/bloom-0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/tempo/tempo-data/blocks/single-tenant/6ecd6cd1-f3b9-4f9b-8b4c-8a5c5289ef86/data.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/tempo/tempo-data/blocks/single-tenant/6ecd6cd1-f3b9-4f9b-8b4c-8a5c5289ef86/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/tempo/tempo-data/blocks/single-tenant/b38e092d-599b-4852-8f00-cca606cafe0d/bloom-0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/tempo/tempo-data/blocks/single-tenant/b38e092d-599b-4852-8f00-cca606cafe0d/data.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/tempo/tempo-data/blocks/single-tenant/b38e092d-599b-4852-8f00-cca606cafe0d/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/tempo/tempo-data/blocks/single-tenant/cf5f0cea-8e70-465e-b162-6eac1241a22f/bloom-0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/tempo/tempo-data/blocks/single-tenant/cf5f0cea-8e70-465e-b162-6eac1241a22f/data.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/tempo/tempo-data/blocks/single-tenant/cf5f0cea-8e70-465e-b162-6eac1241a22f/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/tempo/tempo-data/blocks/single-tenant/e06799c8-8ad4-4020-adc9-faedddcd4768/bloom-0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/tempo/tempo-data/blocks/single-tenant/e06799c8-8ad4-4020-adc9-faedddcd4768/data.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/tempo/tempo-data/blocks/single-tenant/e06799c8-8ad4-4020-adc9-faedddcd4768/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/tempo/tempo-data/blocks/single-tenant/index.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/tempo/tempo-data/blocks/tempo_cluster_seed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/docker/tempo/tempo.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#ib_16384_0.dblwr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#ib_16384_1.dblwr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo10_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo11_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo12_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo13_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo14_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo15_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo16_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo17_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo18_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo19_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo20_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo21_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo22_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo23_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo24_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo25_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo26_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo27_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo28_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo29_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo30_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo31_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo32_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo33_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo34_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo35_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo36_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo37_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo38_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo39_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo40_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_redo/#ib_redo9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_temp/temp_1.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_temp/temp_10.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_temp/temp_2.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_temp/temp_3.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_temp/temp_4.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_temp/temp_5.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_temp/temp_6.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_temp/temp_7.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_temp/temp_8.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/#innodb_temp/temp_9.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/auto.cnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/binlog.000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/binlog.000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/binlog.000003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/binlog.000004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/binlog.000005" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/binlog.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/ca-key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/ca.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/client-cert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/client-key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/ib_buffer_pool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/ibdata1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/ibtmp1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/mysql.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/mysql/general_log.CSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/mysql/general_log.CSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/mysql/general_log_214.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/mysql/slow_log.CSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/mysql/slow_log.CSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/mysql/slow_log_215.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/mysql_upgrade_history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/accounts_146.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/binary_log_trans_190.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/cond_instances_81.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/data_lock_waits_162.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/data_locks_161.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/error_log_82.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_errors_su_140.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_errors_su_141.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_errors_su_142.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_errors_su_143.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_errors_su_144.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_stages_cu_112.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_stages_hi_113.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_stages_hi_114.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_stages_su_115.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_stages_su_116.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_stages_su_117.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_stages_su_118.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_stages_su_119.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_statement_120.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_statement_121.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_statement_122.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_statement_123.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_statement_124.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_statement_125.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_statement_126.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_statement_127.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_statement_128.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_statement_129.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_statement_130.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_statement_131.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_transacti_132.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_transacti_133.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_transacti_134.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_transacti_135.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_transacti_136.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_transacti_137.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_transacti_138.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_transacti_139.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_waits_cur_83.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_waits_his_84.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_waits_his_85.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_waits_sum_86.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_waits_sum_87.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_waits_sum_88.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_waits_sum_89.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_waits_sum_90.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/events_waits_sum_91.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/file_instances_92.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/file_summary_by__93.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/file_summary_by__94.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/global_status_182.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/global_variables_185.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/host_cache_95.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/hosts_147.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/keyring_componen_192.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/keyring_keys_153.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/log_status_175.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/memory_summary_b_155.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/memory_summary_b_156.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/memory_summary_b_157.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/memory_summary_b_158.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/memory_summary_g_154.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/metadata_locks_160.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/mutex_instances_96.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/objects_summary__97.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/performance_time_98.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/persisted_variab_188.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/prepared_stateme_176.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/processlist_99.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/replication_appl_166.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/replication_appl_167.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/replication_appl_168.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/replication_appl_169.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/replication_appl_171.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/replication_appl_172.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/replication_asyn_173.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/replication_asyn_174.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/replication_conn_163.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/replication_conn_165.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/replication_grou_164.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/replication_grou_170.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/rwlock_instances_100.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/session_account__152.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/session_connect__151.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/session_status_183.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/session_variable_186.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/setup_actors_101.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/setup_consumers_102.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/setup_instrument_103.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/setup_meters_104.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/setup_metrics_105.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/setup_objects_106.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/setup_threads_107.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/socket_instances_148.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/socket_summary_b_149.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/socket_summary_b_150.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/status_by_accoun_178.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/status_by_host_179.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/status_by_thread_180.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/status_by_user_181.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/table_handles_159.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/table_io_waits_s_108.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/table_io_waits_s_109.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/table_lock_waits_110.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/threads_111.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/tls_channel_stat_191.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/user_defined_fun_189.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/user_variables_b_177.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/users_145.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/variables_by_thr_184.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/performance_schema/variables_info_187.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/private_key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/public_key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/server-cert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/server-key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/sys/sys_config.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/undo_001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/volume-data/mysql_keycloak_data/undo_002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Andrei565&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Andrei565/full-veremeev-microservices.git&quot;,
+    &quot;accountId&quot;: &quot;bcb529ac-e48e-4e53-9193-ee2b69cc113b&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2wfynvvo3depBdXVXzYVWWdvbMM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.OrderServiceApplication.executor": "Run",
+    "Docker.docker.keycloak-mysql: Compose Deployment.executor": "Run",
+    "Docker.docker.keycloak: Compose Deployment.executor": "Run",
+    "Docker.docker.mongodb: Compose Deployment.executor": "Run",
+    "Docker.docker: Compose Deployment (1).executor": "Run",
+    "Docker.docker: Compose Deployment (2).executor": "Run",
+    "Docker.docker: Compose Deployment (3).executor": "Run",
+    "Docker.docker: Compose Deployment.executor": "Run",
+    "JUnit.OrderServiceApplicationTests.executor": "Run",
+    "JUnit.OrderServiceApplicationTests.shouldSubmitOrder.executor": "Run",
+    "Maven.full-veremeev-microservices [clean].executor": "Run",
+    "Maven.full-veremeev-microservices [install].executor": "Run",
+    "Maven.inventory-service [clean].executor": "Run",
+    "Maven.inventory-service [install].executor": "Run",
+    "Maven.order-service [clean].executor": "Run",
+    "Maven.order-service [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
+    "Spring Boot.InventoryServiceApplication.executor": "Run",
+    "Spring Boot.NotificationServiceApplication (1).executor": "Run",
+    "Spring Boot.NotificationServiceApplication.executor": "Run",
+    "Spring Boot.OrderServiceApplication.executor": "Run",
+    "Spring Boot.ProductServiceApplication.executor": "Run",
+    "git-widget-placeholder": "#1 on feature-module-project",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/Desktop/Java_Proects/Microservices/try1-some-modules/order-service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Java_Proects\Microservices\try2-modules-in-one-project\full-veremeev-microservices\api-gateway\docker" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.programming.techie.api_gateway.ApiGatewayApplication" />
@@ -23,23 +340,184 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotificationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="full-veremeev-microservices" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.techie.microservices.NotificationServiceApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techie.microservices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.techie.microservices.order.OrderServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.techie.microservices.product.ProductServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker: Compose Deployment (1)" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="inventory-service/docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker: Compose Deployment (2)" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="order-service/docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker: Compose Deployment (3)" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="product-service/docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="api-gateway/docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker.keycloak-mysql: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="keycloak-mysql" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="api-gateway/docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker: Compose Deployment (1)" />
+      <item itemvalue="Docker.docker.keycloak-mysql: Compose Deployment" />
+      <item itemvalue="Docker.docker: Compose Deployment" />
+      <item itemvalue="Docker.docker: Compose Deployment (2)" />
+      <item itemvalue="Docker.docker: Compose Deployment (3)" />
+      <item itemvalue="Spring Boot.OrderServiceApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.InventoryServiceApplication" />
+      <item itemvalue="Spring Boot.NotificationServiceApplication (1)" />
+      <item itemvalue="Spring Boot.ProductServiceApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.NotificationServiceApplication" />
+        <item itemvalue="Docker.docker: Compose Deployment (3)" />
+        <item itemvalue="Docker.docker: Compose Deployment (2)" />
+        <item itemvalue="Docker.docker: Compose Deployment (1)" />
+        <item itemvalue="Docker.docker: Compose Deployment" />
+        <item itemvalue="Docker.docker.keycloak-mysql: Compose Deployment" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="074f3b7c-ca1a-4197-bb56-052cd2c299ab" name="Changes" comment="" />
+      <created>1746447092778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746447092778</updated>
+      <workItem from="1746447093961" duration="213000" />
+      <workItem from="1746447333518" duration="156000" />
+      <workItem from="1746447513151" duration="744000" />
+      <workItem from="1746448528620" duration="491000" />
+      <workItem from="1746449324989" duration="1885000" />
+      <workItem from="1746524943352" duration="4503000" />
+      <workItem from="1746529604204" duration="1565000" />
+      <workItem from="1746531224312" duration="518000" />
+    </task>
+    <task id="LOCAL-00001" summary="Добавил модуль notification sender">
+      <option name="closed" value="true" />
+      <created>1746447289640</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746447289640</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Добавил модуль order-service">
+      <option name="closed" value="true" />
+      <created>1746447482825</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746447482825</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Добавил модуль product-service">
+      <option name="closed" value="true" />
+      <created>1746448165911</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746448165911</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Рефактор">
+      <option name="closed" value="true" />
+      <created>1746449584467</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746449584467</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feature-module-project" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавил модуль notification sender" />
+    <MESSAGE value="Добавил модуль order-service" />
+    <MESSAGE value="Добавил модуль product-service" />
+    <MESSAGE value="Рефактор" />
+    <option name="LAST_COMMIT_MESSAGE" value="Рефактор" />
   </component>
 </project>
